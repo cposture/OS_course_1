@@ -1,6 +1,10 @@
-SJF:SJF.o
-	gcc -g SJF.o -o SJF
-SJF.o:SJF.c
-	gcc -g -c SJF.c -o SJF.o
+objects = SJF.o
+target = SJF
+target:$(objects)
+	g++ -g $(objects) -o $(target) 
+
+$(objects):%.o:%.cpp
+objects:
+	g++ -c -g %< -o $(objects) 
 clean:
-	rm -rf SJF SJF.o
+	rm -rf $(objects) $(target)

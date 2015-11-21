@@ -1,0 +1,12 @@
+[submodule "DynamicAllocate"]
+	path = DynamicAllocate
+	url = git@github.com:cposture/DynamicAllocate.git
+[submodule "FCFS"]
+	path = FCFS
+	url = git@github.com:cposture/FCFS.git
+[submodule "SJF"]
+	path = SJF
+	url = git@github.com:cposture/SJF.git
+[submodule "HRN"]
+	path = HRN
+	url = git@github.com:cposture/HRN.git

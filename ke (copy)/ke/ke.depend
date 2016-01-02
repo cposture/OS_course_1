@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1448538033 source:/home/cposture/Desktop/OS/ke (copy)/ke/main.cpp
+	"Process.h"
+	<iostream>
+	<fstream>
+
+1448540953 /home/cposture/Desktop/OS/ke (copy)/ke/Process.h
+	<list>
+	<string>
+	<iostream>
+
+1448549165 source:/home/cposture/Desktop/OS/ke (copy)/ke/Process.cpp
+	"Process.h"
+
